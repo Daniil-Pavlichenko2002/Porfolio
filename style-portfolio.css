@@ -341,6 +341,7 @@ main {
 button{
     position: absolute;
     bottom: 9px;
+    right: 0;
     padding: 8px 23.5px;
     font-weight: 500;
     font-size: 24px;
@@ -356,6 +357,7 @@ button:hover{background-color: #303030;}
     position: fixed;
     bottom: 261px;
     z-index: 2;
+    right: auto;
 }
 
 .footer {
@@ -642,6 +644,8 @@ button:hover{background-color: #303030;}
     }
     .social-network {
         margin-top: 31px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 200px;
     }
     .social-network a:nth-child(2),
